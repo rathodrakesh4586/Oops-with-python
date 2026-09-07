@@ -1,0 +1,8 @@
+class animal :
+  def speak (self):
+    print ("animal bark")
+class dog (animal):
+  def speak (self):
+    print ("dog bark")
+d1 = dog()
+d1.speak()
