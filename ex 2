@@ -1,0 +1,14 @@
+class math ():
+  def add (self,a,b):
+    print(a+b)
+  def sub (self,a,b):
+    print(a-b)
+  def mul (self,a,b):
+    print(a*b)
+  def div(self,a,b):
+     print (a/b)
+m1= math()
+m1.add(1,2)
+m1.sub(2,1)
+m1.mul(1,1)
+m1.div(10,10)
