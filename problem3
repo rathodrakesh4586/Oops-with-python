@@ -1,0 +1,15 @@
+class employee:
+    id="667"
+    name="rakesh"
+    basicsalary=20000
+    def totalsalary(self):
+        HRA = 0.2 * basicsalary
+        DA = 0.1  * basicsalary
+        totalsalary=self.basicsalary + HRA + DA
+        print(totalsalary)
+
+d=employee()
+print(d.id)
+print(d.name)
+print(d.basicsalary)
+ 
