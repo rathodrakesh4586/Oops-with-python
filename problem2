@@ -1,0 +1,17 @@
+class BankAccount:
+    Accountholdername:"rakesh"
+    Accountnumber=45
+    balance:500
+    def deposit(self,money):
+        print (money)
+    def withdraw(self,cash):
+       print(cash)
+    def balance(self,balance):
+        print(balance)
+
+d1=BankAccount()
+d1.deposit(900)
+d1.withdraw(200)
+d1.balance(100)
+                
+    
