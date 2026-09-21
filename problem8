@@ -1,0 +1,28 @@
+class shape:
+    def area(self):
+        print("Shape of area")
+class circle(shape):
+    def area(self):
+        r=6
+        circle=3.14 * r * r
+        print(circle)
+class rectangle(shape):
+    def area(self):
+        length=20
+        breadth=10
+        rectangle=length*breadth
+        print(rectangle)
+class triangle(shape):
+    def area(self):
+        base=5
+        height=10
+        triangle=0.5*base*height
+        print(triangle)
+a1=shape()
+a1.area()
+a2=circle()
+a2.area()
+a3=rectangle()
+a3.area()
+a4=triangle()
+a4.area()
