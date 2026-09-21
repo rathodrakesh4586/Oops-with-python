@@ -1,0 +1,15 @@
+class vehicle:
+    def brand(self):
+        print("bajaj")
+class car(vehicle):
+    def model(self):
+        print("2024")
+class blue(vehicle):
+    def display(self):
+        print("bmw")
+d1=vehicle()
+d1.brand()
+d2=car()
+d2.model()
+d3=blue()
+d3.display()
